@@ -7,7 +7,7 @@ NAPACNA_CRKA = '-'
 #Konstante za zmago in poraz:
 ZMAGA = 'W'
 PORAZ = 'X'
-
+import random
 bazen_besed = []
 with open("besede.txt") as datoteka_bazena:
     for beseda in datoteka_bazena:
@@ -16,7 +16,7 @@ with open("besede.txt") as datoteka_bazena:
 class Igra:
 
     def __init__(self, geslo, crke=None):
-        self.geslo = geslo.lover()
+        self.geslo = geslo.lower()
         if crke is None:
             self.crke = []
         else:
