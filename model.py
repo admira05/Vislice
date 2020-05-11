@@ -69,7 +69,7 @@ class Igra:
         
         if ugibana_crka in self.geslo:
             #kle je uganil, preverjamo ce je zmagu
-            if selg.zmaga()
+            if self.zmaga():
                 return ZMAGA
             else:
                 return PRAVILNA_CRKA
