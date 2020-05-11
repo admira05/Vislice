@@ -1,20 +1,6 @@
 # Vislice
 uvp
 
-Matematiki:
+Projekt pri predmetu uvod v programiranje
 
-Josip Plemelj
-Jurij Vega
-Inav Vidav
-
-<<<<<<< HEAD
-
-predsednik drzave:
-Borut Pahor
-
-imamo tudi se enega
-
-=======
-Predsednik Vlade
-Janez Jansa
->>>>>>> c46cd06961357e22b210c1c08272fd4f780a7a15
+Naredil bomo program, ki nas vodi skozi vislice
